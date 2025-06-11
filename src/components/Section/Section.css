@@ -1,0 +1,31 @@
+.section {
+  position: relative;
+  padding: var(--spacing-xxl) 0;
+  overflow: hidden;
+}
+
+.section--dark {
+  background-color: var(--color-background);
+}
+
+.section--gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(106, 13, 173, 0.1),
+    rgba(0, 255, 255, 0.1)
+  );
+}
+
+.section__container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  position: relative;
+  z-index: var(--z-index-base);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--spacing-xl) 0;
+  }
+} 

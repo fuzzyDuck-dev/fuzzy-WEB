@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="url(#textGradient)" font-family="Arial" font-size="32" font-weight="bold">FuzzyDuck</text>
+  <defs>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,64 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  font-weight: 600;
+  transition: all var(--transition-normal);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Variants */
+.button--primary {
+  background: linear-gradient(135deg, var(--color-accent-gold), var(--color-accent-blue));
+  color: var(--color-background);
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.2);
+}
+
+.button--secondary {
+  background: var(--color-accent-purple);
+  color: var(--color-text-primary);
+}
+
+.button--secondary:hover {
+  background: var(--color-accent-blue);
+  transform: translateY(-2px);
+}
+
+.button--outline {
+  border: 2px solid var(--color-accent-gold);
+  color: var(--color-accent-gold);
+  background: transparent;
+}
+
+.button--outline:hover {
+  background: var(--color-accent-gold);
+  color: var(--color-background);
+}
+
+/* Sizes */
+.button--small {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: 0.875rem;
+}
+
+.button--medium {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: 1rem;
+}
+
+.button--large {
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: 1.125rem;
+}
+
+/* Full Width */
+.button--full-width {
+  width: 100%;
+} 

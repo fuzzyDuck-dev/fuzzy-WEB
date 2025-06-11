@@ -1,0 +1,45 @@
+.usp-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--border-radius-lg);
+  transition: all var(--transition-normal);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.usp-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: var(--color-accent-purple);
+  transform: translateX(5px);
+}
+
+.usp-card__icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(106, 13, 173, 0.1);
+  border-radius: var(--border-radius-md);
+  color: var(--color-accent-purple);
+}
+
+.usp-card__content {
+  flex: 1;
+}
+
+.usp-card__title {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-primary);
+}
+
+.usp-card__description {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+} 

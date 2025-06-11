@@ -1,0 +1,31 @@
+.service-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+  transition: all var(--transition-normal);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--color-accent-gold);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.service-card__icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.service-card__title {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
+.service-card__description {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+} 
