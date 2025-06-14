@@ -1,6 +1,5 @@
-import { motion } from 'framer-motion';
+
 import { Section } from '../Section/Section';
-import { Button } from '../Button/Button';
 import { NAV_LINKS, SOCIAL_LINKS } from '../../constants/content';
 import './Footer.css';
 
